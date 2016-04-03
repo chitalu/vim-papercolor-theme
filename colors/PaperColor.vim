@@ -487,19 +487,19 @@ if has("gui_running") || &t_Co == 88 || &t_Co == 256
   " Standard Group Highlighting:
   call s:HL("Comment", s:comment, "", "italic")
 
-  call s:HL("Constant", s:blue, "", "bold")
+  call s:HL("Constant", s:green, "", "bold")
   call s:HL("String", s:olive, "", "italic")
   call s:HL("Character", s:olive, "", "")
   call s:HL("Number", s:orange, "", "")
-  call s:HL("Boolean", s:green, "", "bold")
+  call s:HL("Boolean", s:green, "", "")
   call s:HL("Float", s:orange, "", "")
 
   call s:HL("Identifier", s:navy, "", "")
   call s:HL("Function", s:wine, "", "italic")
 
   call s:HL("Statement", s:pink, "", "none")
-  call s:HL("Conditional", s:purple, "", "bold")
-  call s:HL("Repeat", s:purple, "", "bold")
+  call s:HL("Conditional", s:purple, "", "")
+  call s:HL("Repeat", s:purple, "", "")
   call s:HL("Label", s:aqua, "", "")
   call s:HL("Operator", s:aqua, "", "none")
   call s:HL("Keyword", s:blue, "", "")
@@ -511,9 +511,9 @@ if has("gui_running") || &t_Co == 88 || &t_Co == 256
   call s:HL("Macro", s:blue, "", "")
   call s:HL("PreCondit", s:aqua, "", "")
 
-  call s:HL("Type", s:pink, "", "bold")
-  call s:HL("StorageClass", s:navy, "", "bold")
-  call s:HL("Structure", s:blue, "", "bold")
+  call s:HL("Type", s:pink, "", "")
+  call s:HL("StorageClass", s:navy, "", "")
+  call s:HL("Structure", s:navy, "", "")
   call s:HL("Typedef", s:pink, "", "bold")
 
   call s:HL("Special", s:foreground, "", "")
@@ -604,7 +604,7 @@ if has("gui_running") || &t_Co == 88 || &t_Co == 256
   call s:HL("cStatement",s:pink, "", "")
   call s:HL("cFunction", s:aqua, "", "italic")
   call s:HL("cTodo", s:comment, "", "bold")
-  call s:HL("cStructure", s:aqua, "", "italic")
+  call s:HL("cStructure", s:navy, "", "italic")
   call s:HL("cCustomParen", s:foreground, "", "")
   call s:HL("cCustomFunc", s:aqua, "", "italic")
   call s:HL("cUserFunction",s:aqua, "", "italic")
